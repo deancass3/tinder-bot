@@ -14,3 +14,8 @@
 ## Swipe responsibly
 - I've made this bot as I feel it is easier to wait for the people that are interested in talking to you, before you decide if you want to talk to them, also because during the Covid-19 outbreak, most of tinder has become a nightmare to sort through via distance. 
 - Enjoy responsibly.
+
+#### Sample run
+- 5 swipes
+- 3 loops
+- https://youtu.be/EUZhsPV_Asc
