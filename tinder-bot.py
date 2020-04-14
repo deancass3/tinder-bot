@@ -5,8 +5,8 @@ import sys
 
 
 class Tinder_bot:
-    def __init__(self, swipe_number):
-        self.constant = 0.008
+    def __init__(self, swipe_number, constant):
+        self.constant = constant
         self.stepsize_vals = (19, 50)
         self.thirstiness = 2
         self.swipe_number = swipe_number
@@ -36,7 +36,8 @@ class Tinder_bot:
 if __name__ == "__main__":
     swipes = int(sys.argv[1])
     loops = int(sys.argv[2])
-    a = Tinder_bot(swipes)
+    constant = float(sys.arv[3])
+    a = Tinder_bot(swipes, constant)
     for k in range(0, loops):
         a.swipe()
         a._reject()

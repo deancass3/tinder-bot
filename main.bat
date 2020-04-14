@@ -1,1 +1,1 @@
-python tinder-bot.py 150 30
+python tinder-bot.py 150 30 0.001
