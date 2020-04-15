@@ -36,7 +36,7 @@ class Tinder_bot:
 if __name__ == "__main__":
     swipes = int(sys.argv[1])
     loops = int(sys.argv[2])
-    constant = float(sys.arv[3])
+    constant = float(sys.argv[3])
     a = Tinder_bot(swipes, constant)
     for k in range(0, loops):
         a.swipe()
