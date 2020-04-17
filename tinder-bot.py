@@ -24,7 +24,7 @@ class Tinder_bot:
         auto.press('left')
 
     def swipe(self):
-        for i in range(0, self.swipe_number):
+        for i in range(0, self.swipe_number+random.randint(0, 21)):
             self._spacing()
             self._sleeper()
             auto.press('right')
