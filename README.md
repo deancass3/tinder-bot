@@ -2,11 +2,9 @@
 - Developed during the Covid-19 outbreak
     - Time efficient, undetectable.
 
-- Requires 3 system arguements to operate
+- Requires 2 system arguements to operate
     - <code>sys.argv[1]</code>: Number of swipes per loop.
     - <code>sys.argv[2]</code>: Number of loops.
-    - <code>sys.argv[3]</code>: Arbitrary constant value that increases the swiping speed. 
-        - Recommended range for sys.argv[3]: (0.0008-0.005) anything above that could risk your account getting flagged or banned.
  
 - I've included a <code>.bat</code> and a <code>.sh</code> file for ease of running the bot. The default arguements can be changed in both by simply editing the file.
 
