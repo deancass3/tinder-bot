@@ -24,13 +24,15 @@ class Tinder_bot:
         auto.press('left')
 
     def swipe(self):
-        for i in range(0, self.swipe_number+random.randint(0, 21)):
+        _randomness = random.randint(0, 21)
+        for i in range(0, self.swipe_number + _randomness):
             self._spacing()
             self._sleeper()
             auto.press('right')
             self._sleeper()
 
-        print('I swiped {} times before swiping left'.format(self.swipe_number))
+        print('I swiped {} times before swiping left'.format(
+            self.swipe_number + _randomness))
 
 
 if __name__ == "__main__":
