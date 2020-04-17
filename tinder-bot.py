@@ -6,7 +6,7 @@ import sys
 
 class Tinder_bot:
     def __init__(self, swipe_number):
-        self.constant = 0.008
+        self.constant = 0.004
         self.stepsize_vals = (19, 50)
         self.thirstiness = 2
         self.swipe_number = swipe_number
