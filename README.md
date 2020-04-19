@@ -11,7 +11,7 @@
     - The bot can be ran responsively in a VM (in the background) as you're working. (VM solution not implemented in the solution provided)
 
 
-## Swipe responsibly
+## Swipe responsibly 😊
 - I've made this bot as I feel it is easier to wait for the people that are interested in talking to you, before you decide if you want to talk to them, also because during the Covid-19 outbreak, most of tinder has become a nightmare to sort through via distance. 
 - Enjoy responsibly.
 
